@@ -17,14 +17,14 @@ body {
     background-color: #FFFFFF;
 }
 
-.logo {
-    height: 70px;
-}
-
 .button {
     background-color: #6D1830 !important;
     color: #fff !important;
     border-radius: 3px !important;
+}
+
+.nav-links {
+    margin-left: 350px;
 }
 
 .nav-items li {
@@ -51,17 +51,23 @@ body {
 
 .section-hero {
     background-color: #FFF9F2;
+    /* height: 85vh; */
 }
+
+/* .hero-content {
+    height: 70%;
+    margin-top: 50px;
+} */
 
 .hero-text-lg {
     font-size: 54px;
 }
 .hero-text-sm {
     font-size: 28px;
-    width: 75%;
+    width: 80%;
 }
 
 .hero-img {
     width: 100%;
-    height: 580px;
+    padding: 65px 0;
 }
