@@ -71,3 +71,9 @@ body {
     width: 100%;
     padding: 65px 0;
 }
+
+.section-features {
+    width: 1000px;
+    margin: 20px auto;
+    border-bottom: 1px solid #dad7d7;
+}
