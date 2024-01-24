@@ -16,6 +16,10 @@ body {
     margin: 0 auto;    
 }
 
+.border-all {
+    border: 1px solid #dad7d7;
+}
+
 .border-bottom {
     border-bottom: 1px solid #dad7d7;
 }
@@ -132,8 +136,31 @@ body {
 
 .product-catalogue {
     width: 1100px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 5px -3px 0px 0px #6D1830;
+}
+
+.catalogue-text-lg {
+    font-family: "lora";
+}
+
+.catalogue-text-sm {
+    width: 57%;
+}
+
+.catalogue-1 {
+    height: 45vh;
+    width: 35%;
+    border-radius: 10px;
 }
 
 .icon {
+    width: 70px;
     border-radius: 50px;
+}
+
+.cat-img-sizing {
+    height: 32.2vh;
+    width: 100%;
 }
