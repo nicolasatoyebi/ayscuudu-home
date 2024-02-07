@@ -149,18 +149,21 @@ body {
     width: 57%;
 }
 
-.catalogue-1 {
-    height: 45vh;
+.catalogue-1 {    
     width: 35%;
     border-radius: 10px;
 }
 
 .icon {
-    width: 70px;
+    width: 50px;
     border-radius: 50px;
 }
 
-.cat-img-sizing {
-    height: 32.2vh;
+.cat-img-sizing-adj {
     width: 100%;
+    height: 78%;
+}
+
+.int-grp{
+    gap: 80px;
 }
