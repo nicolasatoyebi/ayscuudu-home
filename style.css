@@ -32,12 +32,17 @@ body {
 }
 
 .tertiary-background-color {
-    background-color: #6D1830;
+    background-color: #6D1830 !important;
 }
 
 .button {
     background-color: #6D1830 !important;
     border-radius: 3px !important;
+}
+
+.box-shadow-c {
+    border-radius: 10px;
+    box-shadow: 5px -3px 0px 0px #6D1830;
 }
 
 /*UTILITIES*/
@@ -137,8 +142,6 @@ body {
 .product-catalogue {
     width: 1100px;
     margin: 0 auto;
-    border-radius: 10px;
-    box-shadow: 5px -3px 0px 0px #6D1830;
 }
 
 .catalogue-text-lg {
@@ -166,4 +169,54 @@ body {
 
 .int-grp{
     gap: 80px;
+}
+
+.catalogue-info-1 {
+    border-radius: 10px;
+    box-shadow: 5px -3px 0px 0px #6D1830;
+}
+
+.security {
+    width: 900px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 5px -3px 0px 0px #6D1830;
+}
+
+.security-img img{
+    width: 50%;
+}
+
+.sec-img-1 {
+    height: 70%;
+    align-self: center;
+}
+
+.sec-img-2 {
+    margin-left: -50px;
+}
+
+.download-section {
+    height: 70vh;
+    gap: 200px;
+}
+
+.download-image img{
+    height: 100%;
+}
+
+.download-text {
+    width: 35%;
+}
+
+/* .utility-section {
+    height: 70vh;
+} */
+
+.download-app-text {
+    margin-top: -14px;
+}
+
+.cta-form-input {
+    width: 400px !important;
 }
